@@ -1,0 +1,63 @@
+.buttonTab {
+  padding: 10px 60px;
+  color: black;
+  background-color: #b2a4ff8a;
+  border: none;
+  border-radius: 8px;
+}
+.buttonTab:hover {
+  color: white;
+  background-color: #b2a4ff;
+}
+.activeButtonTab {
+  color: white;
+  background-color: #b2a4ff;
+  padding: 10px 60px;
+  border: none;
+  border-radius: 8px;
+}
+.tabContent {
+  background-color: #b2a4ff8a;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+}
+.undoBtnGroup button {
+  padding: 10px 30px;
+  color: black;
+  background-color: #b2a4ff8a;
+  border: none;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.undoBtnGroup button:hover {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 5px;
+  color: white;
+  background-color: #b2a4ff;
+}
+
+.likesBtnGroup button {
+  margin-top: 8px;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 5px;
+  color: #e2255a;
+  /* background-color: #f44475; */
+  transition: all 0.3s;
+}
+.likesBtnGroup button:hover {
+  margin-top: 8px;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 5px;
+  color: white;
+  background-color: #e2255a;
+  transform: translateY(-2px);
+}
